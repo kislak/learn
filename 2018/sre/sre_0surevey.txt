@@ -1,0 +1,43 @@
+- Intro
+1 Intro
+2 Google env
+
+- Principles
+3 embracing risk
+4 SLO
+5 eliminating toil (easy and pleasant)
+6 monitoring
+7 automation
+8 release
+9 simplicity
+
+- Practices
+10 practical alerting from time-series data
+11 being on-call (по вызову)
+12 effective troubleshooting
+13 emergency response
+14 managing incidents
+15 postmortem culture: learning from failure
+16 tracking outages (простой, перерыв в работе)
+17 testing for reliability
+18 sre
+19 load balancing at the frontend
+20 load balancing in the datacenter
+21 overload
+22 cascading failures
+23 managing critical state: distributed consensus
+24 distributed periodic scheduling with cron
+25 data processing piplenes
+26 data integrity
+27 reliable product launches at scale
+
+- Management
+28 accelerating SREs to on-call and beyond
+29 dealing with interupts
+30 recover from operational overload
+31 communication and collaboration
+32 engagement model
+
+- Conclusions
+33 lessons learned from other industries
+34 conclusion

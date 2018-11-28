@@ -1,0 +1,49 @@
+- Introduction
+
+tenets of sre
+
+SRE team is responsible for the
+  availability,
+  latency,
+  performance,
+  efficiency,
+  change management,
+  monitoring,
+  emergency response,
+  capacity planning
+
+conduct a postmortem
+blame-free postmortem culture
+
+Pursuing Maximum Change Velocity Without Violating a Service’s SLO
+
+There are three kinds of valid monitoring output:
+alert
+ticket
+logging
+
+Reliability is a function of mean time to failure (MTTF) and mean time to repair (MTTR)
+  R = mttf/mttr
+
+machine - rack - row - cluster - datacenter - campus
+borg - distributed cluster operating system
+bns - borg name service (name ->  ip:port)
+hdfs - Hadoop Distributed File System
+Google File System -> Colossus (BigTable, Spanner, Blobstore)
+Global Software Load Balancer (GSLB)
+  dns
+  service
+  RPC
+// name, {BNS list -> capacity (RPS)}
+
+The Chubby lock service provides - Paxos protocol for asynchronous Consensus
+
+monitoring:
+Set up alerting for acute problems.
+Compare behavior: did a software update make the server faster?
+Examine how resource consumption behavior evolves over time, which is essential for capacity planning.
+Stubby - gRPC
+
+- Principles
+3 Embracing risk (принять(охватывать, видеть) риски)
+
