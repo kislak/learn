@@ -45,5 +45,23 @@ Examine how resource consumption behavior evolves over time, which is essential 
 Stubby - gRPC
 
 - Principles
-3 Embracing risk (принять(охватывать, видеть) риски)
+- 3 Embracing risk (принять(охватывать, видеть) риски)
+
+99% - availability
+availability = uptime/update+downtime
+availability = 200/404
+
+types of error effects (sign up vs 1 feature)
+
+cost vs profit
+  if we were to build +9 in availability
+    what would incremental increase in revenue be?
+
+falling between 0.01% and 1%
+
+error budget
+
+Hope is not a strategy
+
+- 4 Service Level Objectives
 
