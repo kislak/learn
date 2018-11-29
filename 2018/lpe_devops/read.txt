@@ -1,0 +1,42 @@
+configuration management
+  provision
+  recovery
+  snowflake-server
+  version control
+  replicated env
+
+tools
+  ansible
+  puppet
+  chef
+
+
+puppet
+  describe system resources
+  dsl based on ruby
+  resource types:
+    users,
+    groups,
+    file,
+    package,
+    service
+  manifest_file
+
+> puppet commands
+  apply
+  agent
+  cert
+  module
+  resource
+
+chef (opscode 2009)
+  cookstyle
+  foodcritic
+  chefspec
+  inspec
+  test kitchen
+
+  chef-client
+  chef-solo
+  knife
+
