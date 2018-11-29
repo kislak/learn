@@ -40,3 +40,24 @@ chef (opscode 2009)
   chef-solo
   knife
 
+ansible
+  no agent
+  playbook
+  zero downtime or rolling updates
+
+> ansible
+  ansible-config
+  ansible-console (repl)
+  ansible-galaxy (configure Nginx)
+  ansible-inventory
+  ansible-playbook
+  ansible-pull (pull and execute script on local)
+
+inventory /etc/ansible/hosts
+
+ansible vault
+  sensitive data
+
+> ansible-vault create foo.yml
+> ansible-vault rekey foo.yml #change spassword
+                view foo.yml
