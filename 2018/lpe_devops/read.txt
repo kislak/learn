@@ -61,3 +61,17 @@ ansible vault
 > ansible-vault create foo.yml
 > ansible-vault rekey foo.yml #change spassword
                 view foo.yml
+
+-----
+adduser ansible
+passwd ansible
+visudo
+ssh-keygen
+ssh-copy-id
+
+/etc/ansible/hosts
+  client
+
+cp /home/could_user/playbook.yml /home/ansible
+
+elinks

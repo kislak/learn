@@ -64,4 +64,54 @@ error budget
 Hope is not a strategy
 
 - 4 Service Level Objectives
+SLI
+  what user want (from intuition)
+  quantitative measure of some aspect of the level of service
 
+  request latency
+  error rate
+  system throughput
+  availability
+  durability (storage)
+  correctness
+
+- 5 Eliminating Toil
+  operational work = toil
+  Manual
+  Repetitive
+  Automatable
+  Tactical
+  No enduring value
+  O(n) with service growth
+
+  invent more, toil less.
+
+- 6 Monitoring Distributed Systems
+  monitoring
+    Collecting, processing, aggregating, and displaying real-time quantitative data about a system
+  White-box monitoring
+  Black-box monitoring
+  Dashboard
+  Alert
+  Root cause
+  Node and machine
+  Push
+    any change
+
+
+  monitor
+    analyze long-term trends
+    comparing(time/group)
+    alerting
+    building dashboards
+    Conducting ad hoc retrospective analysis (i.e., debugging)
+
+The four golden signals of monitoring are
+ latency,
+ traffic,
+ errors,
+ saturation (memory, i/o, cpu)
+
+To remedy the situation, the team used a three-pronged approach
+
+- 7 The Evolution of Automation at Google
