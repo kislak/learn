@@ -115,3 +115,66 @@ The four golden signals of monitoring are
 To remedy the situation, the team used a three-pronged approach
 
 - 7 The Evolution of Automation at Google
+value
+  consistency
+  platform (infrastracture)
+  faster repair (mean time to repare MTTR)
+  faster action
+  time saving
+
+meta-software - software to act on software
+
+flaky tests
+Service-Oriented Architecture (SOA)
+  service owners would be responsible for creating an Admin Server to handle cluster turnup/turndown RPCs
+  each team would provide the contract (API) that the turnup automation needed
+
+- 8 Release Engineering
+  building and delivering software
+
+tools
+  source code management
+  compilers
+  build configuration languages
+  automated build tools
+  package managers
+  installers
+
+skills
+  development
+  configuration management
+  test integration
+  system administration
+  customer support
+
+philosophy
+  self-service model
+  high velocity
+  hermetic builds
+  enforcement of policies and procedures (pipelines)
+
+define release processes
+define release process policies
+
+- 9 Simplicity
+The price of reliability is the pursuit of the utmost simplicity.
+
+stability vs agility
+minimizing accidental complexit
+  essential complexity and accidental complexity
+
+minimal api (encapsulation)
+modularity
+small release
+
+Part III. Practices
+maslow:
+
+            product
+          development
+        capacity/planning
+      testing/release
+    root cause analysis
+  incident response
+monitoring
+
