@@ -170,11 +170,10 @@ small release
 Part III. Practices
 maslow:
 
-            product
-          development
-        capacity/planning
-      testing/release
-    root cause analysis
-  incident response
-monitoring
-
+            product         (27: reliable product launches at scale)
+          development       (23: critical state, 24: cron, 25: pipeline, 26: data integrity)
+        capacity planning   (18: se in sre, 19: LB frontend, 20: LB in datacenter, 21: handling overload, 22: cascading failure)
+      testing release       (17: testing for reliability)
+    root cause analysis     (15: learn from failure, 16: tracking outage)
+  incident response         (11: on-call, 12: troubleshoot, 13: emergency, 14: incidents)
+monitoring                  (10: time-series data)
