@@ -177,3 +177,21 @@ maslow:
     root cause analysis     (15: learn from failure, 16: tracking outage)
   incident response         (11: on-call, 12: troubleshoot, 13: emergency, 14: incidents)
 monitoring                  (10: time-series data)
+
+monitoring with prometeus
+  https://www.safaribooksonline.com/videos/kubernetes-and-prometheus/9781492037378/9781492037378-video319658
+  the beginning of a beautiful friendship
+  four golden signals
+    https://landing.google.com/sre/sre-book/chapters/monitoring-distributed-systems/
+    latency
+    traffic
+    errors
+    saturation
+  USE (Brendan Gregg)
+    utilization
+    saturation
+    errors
+  RED (Tom Wilkie)
+    request rate
+    request error
+    request duration
