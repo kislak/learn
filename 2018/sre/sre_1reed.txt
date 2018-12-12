@@ -178,7 +178,8 @@ maslow:
   incident response         (11: on-call, 12: troubleshoot, 13: emergency, 14: incidents)
 monitoring                  (10: time-series data)
 
-monitoring with prometeus
+- 10 Practical Alerting from Time-Series Data
+monitoring with Prometheus
   https://www.safaribooksonline.com/videos/kubernetes-and-prometheus/9781492037378/9781492037378-video319658
   the beginning of a beautiful friendship
   four golden signals
@@ -192,6 +193,14 @@ monitoring with prometeus
     saturation
     errors
   RED (Tom Wilkie)
-    request rate
-    request error
-    request duration
+    request
+      rate
+      error
+      duration
+
+white-box - (unit tests, integration tests) monitoring system—it inspects the internal state of the target service
+black-box - (feature tests) - contract checks (higher abstraction - horizon)
+
+// label - tag - distribution list
+
+- 11 Being On-Call
