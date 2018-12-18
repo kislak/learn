@@ -359,4 +359,9 @@ BEST PRACTICE:
   VISIBLY REWARD PEOPLE FOR DOING THE RIGHT THING
   ASK FOR FEEDBACK ON POSTMORTEM EFFECTIVENESS
 
-- 16 Tracking Outages
+- 16 Tracking Outages (простой, бездействие)
+tagging alerts
+aggregate alerts
+(stats: component per week/month/)
+
+- 17 Testing for Reliability
