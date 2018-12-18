@@ -259,6 +259,76 @@ problem report
   triage
   examine
   diagnose
-  test/treat
+  test and treat
 }
 cure
+
+if a bug is leading to possibly unrecoverable data corruption,
+freezing the system to prevent further failure may be better than letting this behavior continue.
+This realization is often quite unsettling and counterintuitive
+
+use well-documented negative result
+publish your results
+
+postmortem
+  tracked down the problem,
+  how you fixed the problem,
+  and how to prevent it from happening again.
+
+Making Troubleshooting Easier
+  building observability
+  design systems with well-understood and observable interfaces between components
+
+- 13 Emergency Response
+If you feel overwhelmed(потрясен, поражен, ошеломлен), pull in more people.
+Ask the Big, Even Improbable, Questions: What If…?
+  Could you minimize the impact if it were to happen now?
+  Could the person sitting next to you do the same?
+Encourage Proactive Testing
+
+- 14 Managing Incidents
+Recursive Separation of Responsibilities
+
+roles
+  Incident Command (war room - irc)
+  Operational Work
+  Communication
+  Planning
+
+Incident State Document
+  Summary:
+  Status:
+  Command:
+    post(s): tel, email, chat
+    Hierarchy (all responders)
+      Current Incident Commander: jennifer
+      Operations lead: docbrown
+      Planning lead: jennifer
+      Communications lead: jennifer
+      Next Incident Commander: to be determined
+  Detailed Status (last updated at)
+    Exit Criteria:
+    TODO list and bugs filed:
+    Incident timeline:
+
+BEST PRACTICES
+Prioritize.
+  Stop the bleeding, restore service, and preserve the evidence for root-causing.
+Prepare.
+  Develop and document your incident management procedures in advance, in consultation with incident participants.
+Trust.
+  Give full autonomy within the assigned role to all incident participants.
+Introspect.
+  Pay attention to your emotional state while responding to an incident.
+  If you start to feel panicky or overwhelmed, solicit more support.
+Consider alternatives.
+  Periodically consider your options and re-evaluate whether it still makes sense to continue
+  what you’re doing or whether you should be taking another tack in incident response.
+Practice.
+  Use the process routinely so it becomes second nature.
+Change it around.
+  Were you incident commander last time?
+  Take on a different role this time.
+  Encourage every team member to acquire familiarity with each role.
+
+- 15 Postmortem Culture: Learning from Failure
