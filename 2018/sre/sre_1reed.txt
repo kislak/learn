@@ -332,3 +332,31 @@ Change it around.
   Encourage every team member to acquire familiarity with each role.
 
 - 15 Postmortem Culture: Learning from Failure
+Shakespeare Sonnet++ Postmortem (incident #465)
+  Date: 2015-10-21
+  Authors: jennifer, martym, agoogler
+  Status: Complete, action items in progress
+  Summary:
+  Impact: estimated 1.21B queries lost, no revenue impact.
+  Root Causes:
+  Trigger: Latent bug triggered by sudden increase in traffic.
+  Resolution:
+  Detection: Borgmon detected high level of HTTP 500s and paged on-call.
+  Action Items:
+  Lessons Learned:
+    WHAT WENT WELL
+    WHAT WENT WRONG
+    WHERE WE GOT LUCKY
+  Timeline:
+
+Postmortem Culture
+  Postmortem of the month
+  Google+ postmortem group
+  Wheel of Misfortune
+
+BEST PRACTICE:
+  NO POSTMORTEM LEFT UNREVIEWED
+  VISIBLY REWARD PEOPLE FOR DOING THE RIGHT THING
+  ASK FOR FEEDBACK ON POSTMORTEM EFFECTIVENESS
+
+- 16 Tracking Outages
