@@ -204,3 +204,61 @@ black-box - (feature tests) - contract checks (higher abstraction - horizon)
 // label - tag - distribution list
 
 - 11 Being On-Call
+working and nonworking hours
+responsible for
+  performance
+  reliability
+5, 30 min - mobile phone
+2 peaople (primary and secondary)
+6 peaople team
+
+6 hours per incident:
+  root-cause analysis,
+  remediation,
+  follow-up activities
+    writing a postmortem
+    fixing bugs
+
+2 per 12-hour on-call shift.
+
+50 - engeneering
+25 - on-call
+25 - other type operqational
+
+postmortem
+
+ways of thinking
+  Intuitive, automatic, and rapid action
+  Rational, focused, and deliberate cognitive functions
+
+stress hormones
+  cortisol
+  corticotropin-releasing hormone (CRH)
+  are known to cause behavioral consequences—including fear
+  that can impair cognitive functions and cause suboptimal decision making
+  While intuition and quick reactions can seem like desirable traits in the middle of incident management, they have downsides.
+  Intuition can be wrong and is often less supportable by obvious data.
+  Thus, following intuition can lead an engineer to waste time pursuing a line of reasoning that is incorrect from the start.
+
+the most important on-call resources:
+  clear escalation paths
+  well-defined incident-management procedures
+  a blameless postmortem culture
+
+upper bound for the incident’s time span
+
+# postmortems after significant incidents and detail a full timeline of the events that occurred
+
+"give back the pager"
+"Wheel of Misfortune"
+
+- 12 Effective Troubleshooting
+
+problem report
+{
+  triage
+  examine
+  diagnose
+  test/treat
+}
+cure
