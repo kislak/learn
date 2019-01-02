@@ -117,7 +117,7 @@ To remedy the situation, the team used a three-pronged approach
 - 7 The Evolution of Automation at Google
 value
   consistency
-  platform (infrastracture)
+  platform (infrastructure)
   faster repair (mean time to repare MTTR)
   faster action
   time saving
@@ -160,7 +160,7 @@ define release process policies
 The price of reliability is the pursuit of the utmost simplicity.
 
 stability vs agility
-minimizing accidental complexit
+minimizing accidental complexity
   essential complexity and accidental complexity
 
 minimal api (encapsulation)
@@ -221,9 +221,9 @@ responsible for
 
 2 per 12-hour on-call shift.
 
-50 - engeneering
+50 - engineering
 25 - on-call
-25 - other type operqational
+25 - other type operational
 
 postmortem
 
@@ -365,3 +365,9 @@ aggregate alerts
 (stats: component per week/month/)
 
 - 17 Testing for Reliability
+SDLC (waterfall)
+  requirements
+  design
+  dev
+  qa
+  maintenance

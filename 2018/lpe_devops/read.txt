@@ -75,3 +75,47 @@ ssh-copy-id
 cp /home/could_user/playbook.yml /home/ansible
 
 elinks
+
+Docker
+
+git clone https://github.com/linuxacademy/content-express-demo-app.git
+
+
+Dockerfile
+FROM node
+
+RUN mkdir -p /var/node
+ADD content-express-demo-app/ /var/node
+WORKDIR /var/node
+RUN npm install
+
+CMD bin/www
+
+docker build -t la/app-node -f Dockerfile .
+
+
+
+-------------
+FROM nginx
+VOLUME /usr/share/nginx/html
+VOLUME /var/log/nginx
+WORKDIR /usr/share/nginx/html
+
+    5 docker build -t la/static-state:latest -f Dockerfile .
+    6  docker images
+    7  docker volume create nginx-code
+    8  docker volume create nginx-logs
+    9  docker volumes ls
+   10  docker volume ls
+   11  docker run -d --name=static-site -p 80:80 --mount source=nginx-code,target=/usr/share/nginx/html --mount source=nginx-logs,target=/var/logs/nginx la/static-site:latest
+   12  docker ps
+   13  docker images
+   14  docker run -d --name=static-site -p 80:80 --mount source=nginx-code,target=/usr/share/nginx/html --mount source=nginx-logs,target=/var/logs/nginx la/static-state:latest
+   15  ls
+   16  docker volume ps
+   17  docker volume ls
+   18  cd /var/lib/docker/volumes/
+   19  ls
+   20  cd nginx-code/_data/
+   21  ls
+   22  vim index.html
