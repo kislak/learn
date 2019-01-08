@@ -371,3 +371,41 @@ SDLC (waterfall)
   dev
   qa
   maintenance
+
+key responsibility of SRE
+  quantify confidence in the systems
+
+Prognoses about future
+  The site remains completely unchanged
+  or
+  You can confidently describe all changes
+
+If you make too many changes too quickly,
+the predicted reliability approaches the acceptability limit.
+At this point, you may want to stop making changes while new monitoring data accumulates.
+
+
+Zero MTTR occurs when a system-level test is applied to a subsystem
+  Cucumber + Сapybara
+
+tests
+  unit
+  integration
+  system
+    smoke
+    performance
+    regression
+production tests (black-box testing)
+configuration tests
+stress tests
+  - database (how ful)
+  - how many queries
+canary test
+  the incubation period for the upgraded servers - “baking the binary.”
+
+When the build system notifies engineers about broken code,
+they should drop all of their other tasks and prioritize fixing the problem.
+
+some areas of test coverage need a higher level of paranoia than others
+
+The role of SRE generally includes writing systems engineering tools
