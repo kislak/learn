@@ -429,3 +429,25 @@ precursors to intent
 SREs are used to working closely with their teammates, quickly analyzing and reacting to problems.
 
 - 19 Load Balancing at the Frontend
+Load Balancing Using DNS
+  SRV records have not yet been adopted for HTTP
+
+  end users rarely talk to authoritative nameservers directly
+  EDNS0
+    includes information about the client’s subnet in the DNS query sent by a recursive resolver
+
+  DNS replies served should fit within the 512-byte limit
+
+Load Balancing at the Virtual IP Address (VIP)
+  Network load balancer
+  for statefull protocole
+    connection tracking
+      id(packet) mod N (sharing state)
+    consistent hashing
+GRE
+  A network load balancer puts the forwarded packet into another IP packet with Generic Routing Encapsulation (GRE)
+  A backend receiving the packet strips off the outer IP+GRE layer and processes the inner IP packet as if it were delivered directly to its network interface.
+  also
+    Maximum Transmission Unit (MTU)
+
+- 20 Load Balancing in the Datacenter
