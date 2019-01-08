@@ -409,3 +409,23 @@ they should drop all of their other tasks and prioritize fixing the problem.
 some areas of test coverage need a higher level of paranoia than others
 
 The role of SRE generally includes writing systems engineering tools
+
+- 18 Software Engineering in SRE
+team size should not scale directly with service growth
+Bin packing is an NP-hard problem that is difficult for human beings to compute by hand
+
+Intent-Based Capacity Planning
+  specify the requirements, not the implementation.
+  specify intent over implementation
+
+The basic premise
+  encode the dependencies and parameters
+
+precursors to intent
+  dependencies
+  performance metrics
+  prioritization
+
+SREs are used to working closely with their teammates, quickly analyzing and reacting to problems.
+
+- 19 Load Balancing at the Frontend
