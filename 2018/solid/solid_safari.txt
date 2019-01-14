@@ -1,0 +1,144 @@
+
+clean code basics
+
+solid
+
+dependency managment
+
+prof practices
+
+-----------
+code rots
+
+
+why do you write messy code?
+  deadline
+
+life-cycle cost
+  67% cost goes to maintenance
+
+
+design naturally degrade (by human activities)
+
+neglect(небрежность) is controdiction
+
+rigidity жесткость - неэластичный - не гибкий - not lean(agile)
+fragility хрупкость
+immobility - can't reuse
+viscosity - вязкость (липкость) (do right things fast - and wrong things slow)
+needless complexity
+needless repetition
+opacity
+
+code smells
+duplication
+long method
+big class
+feature envy (function that doesn't manipulate var of class)
+useless comment
+poor name
+?inappropriate intimacy (близкие, интимные отношения)
+shotgun surgery
+switch
+god class
+?primitive obsession
+?refused bequest (наследство)
+
+remedy -> dependency management
+
+how
+  separate concerns
+    apply principles of class design
+
+  attributes of good design
+    reveals intent
+    adaptable
+
+------------------ solution
+clean code needs few comments
+  use comments brainlessly (глупо)
+intention revealing names
+  don't communicate implementation - communicate intent
+command/query separation
+
+professionalism - set of
+  ethics
+  standards
+  rituals that conforms to the st and eth
+
+  wash hands
+
+
+50 years / (number of programmers double per 5 years)
+
+tdd
+
+10 commandments OOP
+
+srp
+  class should have one reason to change (which users asks for changes - should be only one)
+  should be a single source of change (CFO, CTO, COO)
+
+  separate code that changes for different reason at different time
+
+
+ocp
+  open for extension
+  close for modification
+  abstraction and polymorphism (dependency direction)
+  Payroll - Employee (the_strategy) -> [Salary, Hourly, Commission]
+
+
+lsp
+  parents can be substitutable with children
+  derivative do nothing (#add_timecard)
+
+===================
+# before:
+
+def sum(a, b)
+  res = a + b
+end
+
+# after:
+
+# 1
+def sum(a, b, c = nil)
+  res = a + b
+  res += c if c
+end
+
+# 2: OCP is broken
+def sum(a)
+  res = a
+end
+
+open-closed broken if #2
+open-closed not broken if #1
+true?
+=====================
+
+
+ISP
+  don't depend on things you don't need
+  send_mail(user) vs send_mail(user.email)
+
+DIP
+  high level policy vs low level details
+
+
+fight rot
+  simple design
+  auto test
+  tdd
+  refactoring
+  teamwork
+    pair programming (cover for each other)
+
+collective ownership
+  team owns code
+  reduces knowledge silos (бункер)
+
+ci
+  run the whole build test on local env
+
