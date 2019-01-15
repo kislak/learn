@@ -163,3 +163,47 @@ docker-compose up -d
 1> docker pull httpd
 1> docker service create --name our_api --replicas=2 httpd:latest
 
+Agile
+  adaptive planning
+  evolutionary development
+  early delivery
+  continuous improvement
+  rapid and flexible response to change
+
+
+-----------
+yum install -y java
+wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat/jenkins.repo
+rpm --import https://jenkins-ci.org/redhat/jenkins-ci.org.key
+yum install -y java
+yum install -y jenkins
+service jenkins start
+chkconfig jenkins
+
+cat /var/lib/jenkins/secrets/initialAdminPassword
+
+manage Jenkins -> manage plugins -> availabe
+ ansicolor
+ copy artifacts
+ docker
+ docker slave
+ cluodbees doc
+ nodejs
+
+jenkins slave
+  packer - ?
+    pakcer.json docker
+    /usr/local/bin/packer build -var "repository=${repo_name}" -var "tag=${BUILD_NUMBER}" packer.json
+    build with parameters
+
+-------
+open port
+firewall-cmd --zone=public --permanent --add-port=8080/tcp
+firewall-cmd --reload
+firewall-cmd --zone=public --permanent --list-ports
+
+create job
+shell:
+/usr/local/bin/pcker build -var "repository=${repo_name}" -var "tag=${BUILD_NUMBER}" packer.json
+
+> docker images
